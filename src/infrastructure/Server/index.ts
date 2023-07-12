@@ -1,7 +1,7 @@
 import express from "express";
 import { type NextFunction, type Request, type Response } from "express"
 import cors from "cors";
-import options from "./cors.js";
+import options from "./cors";
 
 export const app = express();
 
